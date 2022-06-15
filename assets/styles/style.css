@@ -1,0 +1,150 @@
+body {
+    background-color: #4A4746;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.mainTitle {
+    padding: 32px;
+    padding-top: 64px;
+    padding-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background: linear-gradient(#4A4746, #cb0000);
+}
+.subHeader {
+    text-align: center;
+    font-weight: bold;
+    background: #cb0000;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position:relative;
+    top: -32px;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    min-width: 50px;
+    margin-bottom: 64px;
+}
+nav a{
+    color: #cb0000;
+    font-weight: bold;
+    font-size: 28px;
+    background: #0f0f0f;
+    padding: 16px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.standardArt {
+    background-color: #111111;
+    padding-bottom: 32px;
+    margin: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 32px;
+    transition: all 0.5s ease-in-out;
+}
+
+.standardArt:hover{
+    box-shadow: inset 0px 0px 0px #cb0000, 0 0 32px #cb0000;
+}
+
+#selfPortrait {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 16px;
+}
+
+h2 {
+    text-align: center;
+    color: #cb0000;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+.standardArt p{
+    margin-left: 200px;
+    margin-right:200px;
+    color:#cb0000;
+    font-weight: bold;
+}
+
+.standardArt ul{
+    margin-left: 200px;
+    margin-right:200px;
+    color:#cb0000;
+    font-weight: bold;
+}
+
+.folioHeader {
+    background: #111111;
+    border-radius: 24px;
+    margin-left: 25%;
+    margin-right:25%;
+}
+
+h3 {
+    text-align: center;
+    color: #cb0000;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+.folioSubtitle {
+    text-align: center;
+    color: #cb0000;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+#horiseon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: #cb0000;
+    border-style: double;
+}
+
+.container {
+    position: relative;
+    margin-top: 46px;
+    text-align: center;
+    color:#111111;
+}
+
+.projectHeader {
+    background: #cb0000;
+    border-radius: 16px;
+    position: relative;
+    margin-top: -46px;
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 46px;
+    color:#111111;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav {
+      flex-direction: column;
+    }
+}
